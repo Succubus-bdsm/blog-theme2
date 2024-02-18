@@ -34,7 +34,7 @@ html,
     flex-direction: column;
     min-height: 100vh;
     background-image: linear-gradient(
-        80deg,
+        180deg,
         var(--color-neutral-1) 0%,
         var(--color-neutral-2) 100%
     );
