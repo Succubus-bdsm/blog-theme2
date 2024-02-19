@@ -65,6 +65,31 @@ html,
     grid-column: 1 / -1;
 }
 
+.gh-hero-img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5em 0;
+    position: relative;
+}
+
+.gh-hero-img-container > img {
+    position: relative;
+}
+
+.gh-hero-img-container:before {
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: calc(50% - 200px);
+    background: radial-gradient(
+        circle,
+        rgba(36, 30, 70, 0.7) 0%,
+        rgba(36, 30, 70, 0) 70%
+    );
+}
+
 .gh-container {
     width: 100%;
     max-width: 1200px;
