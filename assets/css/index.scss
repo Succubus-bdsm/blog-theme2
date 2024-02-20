@@ -127,17 +127,16 @@ html,
 } */
 
 .gh-card--first-link {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 4em;
+  gap: 2em 0;
 }
 
-.gh-card--first-picture {
-  grid-column: span 8;
+@media screen and (min-width: 800px) {
+  .gh-card--first-link {
+    gap: 0 2em;
+  }
 }
 
 .gh-card--first-content {
-  grid-column: span 4;
   text-align: left;
 }
 
