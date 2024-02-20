@@ -3,10 +3,10 @@ Re-usable card for linking to posts
 --}}
 
 {{#if @first}}
-    <article class="gh-card--first">
-        <a class="gh-card--first-link" href="{{url}}">
+    <article class="container gh-card--first">
+        <a class="g-row gh-card--first-link" href="{{url}}">
             {{#if feature_image}}
-                <picture class="gh-card--first-picture">
+                <picture class="g-col-12 g-col-md-7 gh-card--first-picture">
                   <source
                     srcset="
                     {{img_url feature_image size="xxs" format="avif"}} 30w,
@@ -48,7 +48,7 @@ Re-usable card for linking to posts
                   >
                 </picture>
             {{/if}}
-            <div class="gh-card--first-content">
+            <div class="g-col-12 g-col-md-5 gh-card--first-content">
                 <div class="gh-card--first-tags">
                     {{#primary_tag}}
                         <span class="post-card-primary-tag">{{name}}</span>
