@@ -11,13 +11,13 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @use "~@jogarcia/mgrid/g-row.scss";
 @use "~@jogarcia/mgrid/g-col.scss";
 
+@use "components/card";
+
 /* Base components */
 @import "vars.css";
 @import "components/global.css";
 @import "components/forms.css";
 @import "components/buttons.css";
-
-@use "components/card";
 
 /* Ghost components */
 @import "ghost/header.css";
