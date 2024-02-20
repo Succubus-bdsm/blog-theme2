@@ -36,12 +36,12 @@ export default defineConfig({
     nodeResolve(),
     babel({ babelHelpers: "bundled" }),
     postcss({
+      use: ["sass"],
       extract: true,
       sourceMap: true,
       plugins: [atImport(), postcssPresetEnv({})],
       minimize: true,
     }),
-    scss(),
     process.env.BUILD !== "production" &&
       livereload({
         watch: resolve("."),
