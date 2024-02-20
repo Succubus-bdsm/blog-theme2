@@ -83,14 +83,21 @@ html,
 .gh-hero-img-container:before {
   content: "";
   position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 360px;
   top: calc(50% - 200px);
   background: radial-gradient(
     circle,
     rgba(36, 30, 70, 0.7) 0%,
     rgba(36, 30, 70, 0) 70%
   );
+}
+
+@media screen and (min-width: 800px) {
+  .gh-hero-img-container:before {
+    height: 400px;
+    width: 400px;
+  }
 }
 
 .gh-container {
