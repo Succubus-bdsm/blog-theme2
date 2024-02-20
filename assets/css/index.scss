@@ -8,6 +8,9 @@ production stylesheet in assets/built/screen.css using: npm run dev
 /* Lib - Local component imports
 /* ---------------------------------------------------------- */
 
+@use "~@jogarcia/mgrid/g-row.scss";
+@use "~@jogarcia/mgrid/g-col.scss";
+
 /* Base components */
 @import "vars.css";
 @import "components/global.css";
