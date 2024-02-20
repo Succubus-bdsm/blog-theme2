@@ -123,6 +123,40 @@ html,
     margin: 8vmin auto 0;
 } */
 
+.gh-card--first-link {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 4em;
+}
+
+.gh-card--first-picture {
+    grid-column: span 8;
+}
+
+.gh-card--first-content {
+    grid-column: span 4;
+    text-align: left;
+}
+
+.gh-card--first-tags {
+    display: block;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.gh-card--first-title {
+    font-size: 4.5rem;
+}
+
+.gh-card--first-meta {
+    display: block;
+    margin: 1em 0;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
+
 .gh-card-link {
     display: flex;
     flex-direction: column;
