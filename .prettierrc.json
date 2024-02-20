@@ -1,10 +1,11 @@
 {
-  "overrides": [
-    {
-      "files": "**/*.hbs",
-      "options": {
-        "parser": "angular"
-      }
-    }
-  ]
+    "overrides": [
+        {
+            "files": "**/*.hbs",
+            "options": {
+                "parser": "angular"
+            }
+        }
+    ],
+    "tabWidth": 2
 }
