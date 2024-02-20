@@ -55,7 +55,9 @@
         "prettier": "^3.2.5",
         "rollup": "^3.18.0",
         "rollup-plugin-livereload": "^2.0.5",
-        "rollup-plugin-postcss": "^4.0.2"
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-scss": "^4.0.0",
+        "sass": "^1.71.0"
     },
     "browserslist": [
         "defaults"
