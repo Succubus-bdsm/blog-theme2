@@ -58,13 +58,56 @@
 
 </main>
 
-<footer class="gh-foot">
-    <div class="gh-container">
-        <div class="gh-foot-menu">
-            {{navigation type="secondary"}}
+<footer>
+    <div class="gh-foot gh-container">
+        <div class="gh-foot__header">
+            <img
+                src="assets/images/logo.svg"
+                alt="Logo of Succubus"
+                width="120px"
+                height="120px"
+            />
+            <h2 class="gh-foot__header-title">
+                <span>
+                    Suc
+                </span>
+                <span class="gh-foot__header-title-intermediary">
+                    c
+                </span>
+                <span>
+                    ubus
+                </span>
+            </h2>
         </div>
-        <div class="gh-foot-meta">
-            Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+        <div class="gh-foot__links">
+            <div>
+                <h3 class="mb-2">
+                    Enlace
+                </h3>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Encuesta</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mb-2">
+                    Otros Enlaces
+                </h3>
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Contactos</li>
+                    <li>Términos de Servicio</li>
+                </ul>
+            </div>
+        </div>
+        <div class="gh-container">
+            <div class="gh-foot-menu">
+                {{navigation type="secondary"}}
+            </div>
+            <div class="gh-foot-meta">
+                Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+            </div>
         </div>
     </div>
 </footer>
