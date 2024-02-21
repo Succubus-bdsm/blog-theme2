@@ -1720,6 +1720,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jogarcia/mgrid@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@jogarcia/mgrid@npm:1.0.2"
+  checksum: 1eefbb97c3f0c8c7cfc53732ff29f5c9e16b2a030f8f1184bcaed5fc9f2839bcc96d2d04468f87015fa0e164f98fd4702184ff8b1ad5eac8ef6c7533c9c3a253
+  languageName: node
+  linkType: hard
+
 "@jridgewell/gen-mapping@npm:^0.3.0, @jridgewell/gen-mapping@npm:^0.3.2":
   version: 0.3.3
   resolution: "@jridgewell/gen-mapping@npm:0.3.3"
@@ -2931,6 +2938,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.21.0
     "@babel/preset-env": ^7.20.2
+    "@jogarcia/mgrid": ^1.0.2
     "@rollup/plugin-babel": ^6.0.3
     "@rollup/plugin-commonjs": ^25.0.0
     "@rollup/plugin-node-resolve": ^15.0.1
