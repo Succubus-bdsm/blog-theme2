@@ -117,15 +117,27 @@ h1 {
   position: relative;
 }
 
-.gh-hero > h1 {
+.gh-hero__header {
   font-weight: 100;
-  font-size: 16rem;
+  font-size: 7rem;
   text-transform: uppercase;
   letter-spacing: 8px;
   display: flex;
 }
 
-.gh-hero > h1 > .intermediary-header {
+@media screen and (min-width: 700px) {
+  .gh-hero__header {
+    font-size: 10rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .gh-hero__header {
+    font-size: 16rem;
+  }
+}
+
+.gh-hero__header > .gh-hero__header-intermediary-header {
   color: var(--color-accent);
 }
 
@@ -144,8 +156,8 @@ h1 {
 
 @media screen and (min-width: 800px) {
   .gh-hero:before {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
   }
 }
 
