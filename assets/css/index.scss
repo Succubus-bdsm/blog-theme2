@@ -45,6 +45,26 @@ html,
   );
 }
 
+@font-face {
+  font-family: "voga";
+  src:
+    url("../fonts/Voga-Medium.woff2") format("woff2"),
+    url("../fonts/Voga-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "corbel";
+  src:
+    url("../fonts/CORBEL.woff2") format("woff2"),
+    url("../fonts/CORBEL.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .gh-main {
   flex: 1 0 auto;
   display: flex;
