@@ -10,6 +10,11 @@ production stylesheet in assets/built/screen.css using: npm run dev
 
 @use "~@jogarcia/mgrid/g-row.scss";
 @use "~@jogarcia/mgrid/g-col.scss";
+@use "~@jogarcia/mgrid/margin.scss" with (
+  $base: 1,
+  $range: 10,
+  $unit: rem
+);
 
 @use "components/card";
 
