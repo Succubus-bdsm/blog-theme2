@@ -100,3 +100,31 @@ footer {
   background: var(--ghost-accent-color);
   border-radius: 6px;
 }
+
+.footer__social {
+  display: flex;
+  gap: 1em;
+}
+
+.footer__social-icons {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.footer__social-icon-x {
+  width: 46px;
+  height: 46px;
+  top: 1px;
+}
+
+.footer__social-icon-telegram {
+  width: 57px;
+  height: 57px;
+  top: -3px;
+}
+
+.footer__social-icon-telegram > img {
+  width: 100%;
+  height: auto;
+}
