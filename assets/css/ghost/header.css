@@ -232,6 +232,13 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
   margin-left: 0;
 }
 
+.gh-head-menu__search > .gh-search-icon {
+  border: 2px solid var(--ghost-accent-color) !important;
+  border-radius: 5px;
+  height: 40px !important;
+  width: 40px !important;
+}
+
 /* Mobile Menu
 /* ---------------------------------------------------------- */
 /* IDs needed to ensure sufficient specificity */
