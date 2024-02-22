@@ -79,7 +79,7 @@
                 </span>
             </h2>
         </div>
-        <div class="gh-foot__links">
+        <div class="mb-7 gh-foot__links">
             <div>
                 <h3 class="mb-2">
                     Enlace
@@ -99,6 +99,31 @@
                     <li>Contactos</li>
                     <li>Términos de Servicio</li>
                 </ul>
+            </div>
+            <div>
+                <h3 class="mb-2">Únete</h3>
+                <div class="gh-foot-menu">
+                    <!-- {{navigation type="secondary"}} -->
+                                {{!-- A signup call to action is displayed here, unless viewed as a logged-in member --}}
+                    {{#if @site.members_enabled}}
+                    {{#unless @member}}
+                        <section class="footer-cta outer">
+                            <div class="inner">
+                                {{#if @custom.email_signup_text}}
+                                <h2 class="footer-cta-title">
+                                    {{@custom.email_signup_text}}
+                                </h2>
+                                {{/if}}
+                                <a class="footer-cta-button" href="#/portal" data-portal>
+                                    <div class="footer-cta-input mr-5">Introduzca su correo</div>
+                                    <span>Subscribirse</span>
+                                </a>
+                            </div>
+                        </section>
+                    {{/unless}}
+                    {{/if}}
+
+                </div>
             </div>
         </div>
         <div class="gh-container">
