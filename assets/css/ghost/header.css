@@ -334,7 +334,9 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     border-radius: 5px;
     height: 40px !important;
     width: 40px !important;
-    display: block !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
   }
 }
 
