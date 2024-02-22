@@ -332,8 +332,8 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
   .gh-head-menu__search > .gh-search-icon {
     border: 2px solid var(--ghost-accent-color) !important;
     border-radius: 5px;
-    height: 40px !important;
-    width: 40px !important;
+    height: 48px !important;
+    width: 48px !important;
     display: flex !important;
     justify-content: center;
     align-items: center;
