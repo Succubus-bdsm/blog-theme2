@@ -116,12 +116,24 @@ $card-body-bottom-space: 23px;
   }
 }
 
+.card--geo__image-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.card--geo__image-wrapper::after {
+  content: "";
+  display: block;
+  padding-bottom: 55%;
+}
+
 .card--geo__image {
   width: 100%;
   clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%);
   border-radius: 0 15px 0px 0px;
-  position: relative;
-  z-index: 10;
+  position: absolute;
 }
 
 .card--geo__tag {
