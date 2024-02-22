@@ -8,7 +8,7 @@ footer {
 .gh-foot {
   display: flex;
   flex-direction: column;
-  padding: 3vmin 0vmin;
+  padding: 10vmin 4vmin;
 }
 
 .gh-foot__header {
