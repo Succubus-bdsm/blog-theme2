@@ -107,14 +107,21 @@ html,
 .gh-hero:before {
   content: "";
   position: absolute;
-  height: 360px;
-  width: 360px;
+  height: 300px;
+  width: 300px;
   top: calc(50% - 200px);
   background: radial-gradient(
     circle,
     rgba(36, 30, 70, 0.9) 0%,
     rgba(36, 30, 70, 0) 70%
   );
+}
+
+@media screen and (min-width: 700px) {
+  .gh-hero:before {
+    height: 360px;
+    width: 360px;
+  }
 }
 
 @media screen and (min-width: 800px) {
