@@ -48,6 +48,12 @@ footer {
   font-weight: normal;
 }
 
+@media screen and (min-width: 700px) {
+  .gh-foot__header-title {
+    font-size: 8rem;
+  }
+}
+
 .gh-foot__header-title-intermediary {
   color: var(--color-accent);
 }
