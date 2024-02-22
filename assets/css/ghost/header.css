@@ -321,6 +321,10 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
   .gh-head-open #gh-head .gh-head-menu {
     display: flex;
   }
+
+  .gh-head-open .gh-head__subscribe {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 600px) {
