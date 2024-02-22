@@ -322,7 +322,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     display: flex;
   }
 
-  .gh-head-open .gh-head__subscribe {
+  .gh-head-open .gh-head-actions {
     visibility: hidden;
   }
 }
