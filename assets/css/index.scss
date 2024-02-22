@@ -112,9 +112,16 @@ html,
   top: calc(50% - 200px);
   background: radial-gradient(
     circle,
-    rgba(36, 30, 70, 0.7) 0%,
+    rgba(36, 30, 70, 0.9) 0%,
     rgba(36, 30, 70, 0) 70%
   );
+}
+
+@media screen and (min-width: 800px) {
+  .gh-hero:before {
+    height: 500px;
+    width: 500px;
+  }
 }
 
 .gh-hero__img,
@@ -163,26 +170,6 @@ html,
 
 .gh-hero__header > .gh-hero__header-intermediary-header {
   color: var(--color-accent);
-}
-
-.gh-hero:before {
-  content: "";
-  position: absolute;
-  height: 360px;
-  width: 360px;
-  top: calc(50% - 200px);
-  background: radial-gradient(
-    circle,
-    rgba(36, 30, 70, 0.9) 0%,
-    rgba(36, 30, 70, 0) 70%
-  );
-}
-
-@media screen and (min-width: 800px) {
-  .gh-hero:before {
-    height: 500px;
-    width: 500px;
-  }
 }
 
 .gh-container {
