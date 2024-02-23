@@ -19,7 +19,11 @@
     <div class="gh-postfeed">
       {{#foreach posts}}
 
+      {{#if @first}}
+      {{> "card-first" }}
+      {{else}}
       {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
+      {{/if}}
 
       {{/foreach}}
     </div>
