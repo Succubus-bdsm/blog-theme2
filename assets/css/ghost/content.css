@@ -231,3 +231,48 @@ figcaption strong {
 .gh-content tbody tr:last-child {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.read-more-wrap {
+  margin: 3vmin 0 6vmin;
+}
+
+.footer-cta + .read-more-wrap {
+  margin-top: max(12vmin, 72px);
+}
+
+.read-more {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 4vmin;
+}
+
+.read-more .post-card-tags {
+  display: none;
+}
+
+.read-more.inner {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media (max-width: 1000px) {
+  .read-more {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .read-more .post-card:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .read-more {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .read-more .post-card:nth-child(2) {
+    display: none;
+  }
+}
+
+.read-more > * {
+  grid-column: span 2;
+}
