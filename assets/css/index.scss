@@ -95,6 +95,19 @@ html,
   grid-column: 1 / -1;
 }
 
+.card-big-screen {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  .card-small-screen {
+    display: none;
+  }
+  .card-big-screen {
+    display: block;
+  }
+}
+
 .gh-hero {
   display: flex;
   flex-direction: column;

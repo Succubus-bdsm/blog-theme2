@@ -20,7 +20,14 @@
       {{#foreach posts}}
 
       {{#if @first}}
-      {{> "card-first" }}
+
+      <div class="card-big-screen">
+        {{> "card-first" }}
+      </div>
+      <div class="card-small-screen">
+        {{> "card" }}
+      </div>
+
       {{else}}
       {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
       {{/if}}
