@@ -66,8 +66,7 @@ export default function infiniteScroll() {
 
   let observer = new IntersectionObserver(callback, options);
 
-  const posts = document.querySelectorAll(".post");
-  const lastPost = posts[posts.length - 1];
+  const footer = document.querySelector("footer");
 
-  observer.observe(lastPost);
+  observer.observe(footer);
 }
