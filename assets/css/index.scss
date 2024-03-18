@@ -218,6 +218,20 @@ html,
   height: 2rem;
 }
 
+/* Brand header
+/* ---------------------------------------------------------- */
+
+.brand-header {
+  display: flex;
+  font-family: var(--font-serif);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.brand-header__intermediary {
+  color: var(--color-accent);
+}
+
 /* Page
 /* ---------------------------------------------------------- */
 
