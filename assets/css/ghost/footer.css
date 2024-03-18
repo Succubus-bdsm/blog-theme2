@@ -5,24 +5,6 @@ footer {
   background-color: var(--color-neutral-1);
 }
 
-.gh-foot {
-  display: flex;
-  flex-direction: column;
-  padding: 10vmin 2vmin 4vmin;
-}
-
-@media screen and (min-width: 700px) {
-  .gh-foot {
-    padding: 5vmin 2vmin 2vmin;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .gh-foot {
-    padding: 5vmin 0vmin 2vmin;
-  }
-}
-
 .gh-foot__header {
   display: flex;
   align-items: center;
