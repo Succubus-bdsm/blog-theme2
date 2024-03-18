@@ -65,6 +65,10 @@ footer {
   gap: 8em;
 }
 
+.gh-foot__links a {
+  color: inherit;
+}
+
 .gh-foot__links h3 {
   font-size: 3rem;
 }
