@@ -81,13 +81,15 @@ footer {
   width: auto;
 }
 
-.gh-foot a {
-  color: inherit;
-}
-
 .footer-cta {
   position: relative;
   text-align: center;
+}
+
+.footer-cta a {
+  position: relative;
+  text-align: center;
+  color: var(--color-gray-dark-1);
 }
 
 .footer-cta-title {
@@ -109,7 +111,6 @@ footer {
   max-width: 500px;
   padding: 5px 5px 5px 15px;
   font-size: 1.7rem;
-  color: var(--color-darkgrey);
   background: #fff;
   border: 1px solid var(--color-border);
   border-radius: 8px;
