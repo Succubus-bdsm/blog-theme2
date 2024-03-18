@@ -169,11 +169,8 @@ html,
 }
 
 .gh-hero__header {
-  font-weight: 100;
   font-size: 7rem;
-  text-transform: uppercase;
   letter-spacing: 8px;
-  display: flex;
 }
 
 @media screen and (min-width: 700px) {
@@ -186,10 +183,6 @@ html,
   .gh-hero__header {
     font-size: 16rem;
   }
-}
-
-.gh-hero__header > .gh-hero__header-intermediary-header {
-  color: var(--color-accent);
 }
 
 .gh-container {
