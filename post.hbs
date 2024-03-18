@@ -101,7 +101,7 @@
 {{#get "posts" filter="id:-{{id}}" include="tags" limit="3" as |more_posts|}}
 
     {{#if more_posts}}
-        <div class="read-more-wrap outer">
+        <div class="gh-container mb-5">
             <div class="read-more inner">
                 {{#foreach more_posts}}
                     {{> "card" }}
