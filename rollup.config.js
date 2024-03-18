@@ -8,6 +8,8 @@ import babel from "@rollup/plugin-babel";
 // Minifies the bundle
 import terser from "@rollup/plugin-terser";
 
+import strip from "@rollup/plugin-strip";
+
 // CSS
 // Enable the PostCSS preprocessor
 import postcss from "rollup-plugin-postcss";
@@ -42,6 +44,10 @@ export default defineConfig({
       plugins: [atImport(), postcssPresetEnv({})],
       minimize: true,
     }),
+    process.env.BUILD === "production" &&
+      strip({
+        functions: ["console.*"],
+      }),
     process.env.BUILD !== "production" &&
       livereload({
         watch: resolve("."),

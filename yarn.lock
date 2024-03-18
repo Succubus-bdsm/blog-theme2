@@ -1769,7 +1769,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13":
+"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13, @jridgewell/sourcemap-codec@npm:^1.4.15":
   version: 1.4.15
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.15"
   checksum: b881c7e503db3fc7f3c1f35a1dd2655a188cc51a3612d76efc8a6eb74728bef5606e6758ee77423e564092b4a518aba569bbb21c9bac5ab7a35b0c6ae7e344c8
@@ -1869,6 +1869,22 @@ __metadata:
     rollup:
       optional: true
   checksum: 83617cdbb90cb780251e8b16dc1671e35bde90b8d4d30e008aefe706b5b643057f6299bdd3226b2a30bf5e4f807a880169de3faa47b9f2ba38d39f294f85f951
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-strip@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "@rollup/plugin-strip@npm:3.0.4"
+  dependencies:
+    "@rollup/pluginutils": ^5.0.1
+    estree-walker: ^2.0.2
+    magic-string: ^0.30.3
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 77a839dedbe46ec2f2a1834428277a9c8addc28989fc013f39c638019fff2aaf7b1c64d79ed8f4361a9f21094cd5d819197e88c9b6483f5a6232282c8e310174
   languageName: node
   linkType: hard
 
@@ -3438,6 +3454,15 @@ __metadata:
   dependencies:
     "@jridgewell/sourcemap-codec": ^1.4.13
   checksum: 273faaa50baadb7a2df6e442eac34ad611304fc08fe16e24fe2e472fd944bfcb73ffb50d2dc972dc04e92784222002af46868cb9698b1be181c81830fd95a13e
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.30.3":
+  version: 0.30.8
+  resolution: "magic-string@npm:0.30.8"
+  dependencies:
+    "@jridgewell/sourcemap-codec": ^1.4.15
+  checksum: 79922f4500d3932bb587a04440d98d040170decf432edc0f91c0bf8d41db16d364189bf800e334170ac740918feda62cd39dcc170c337dc18050cfcf00a5f232
   languageName: node
   linkType: hard
 
@@ -5108,6 +5133,7 @@ __metadata:
     "@rollup/plugin-babel": ^6.0.3
     "@rollup/plugin-commonjs": ^25.0.0
     "@rollup/plugin-node-resolve": ^15.0.1
+    "@rollup/plugin-strip": ^3.0.4
     "@rollup/plugin-terser": ^0.4.0
     bestzip: ^2.2.1
     postcss: ^8.4.24
