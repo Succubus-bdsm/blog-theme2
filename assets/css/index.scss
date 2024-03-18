@@ -15,6 +15,11 @@ production stylesheet in assets/built/screen.css using: npm run dev
   $range: 10,
   $unit: rem
 );
+@use "~@jogarcia/mgrid/padding.scss" with (
+  $base: 1,
+  $range: 10,
+  $unit: rem
+);
 
 @use "components/card";
 
