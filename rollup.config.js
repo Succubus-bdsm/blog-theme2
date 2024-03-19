@@ -10,8 +10,6 @@ import terser from "@rollup/plugin-terser";
 
 import strip from "@rollup/plugin-strip";
 
-import { glob, globSync, globStream, globStreamSync, Glob } from "glob";
-
 // CSS
 // Enable the PostCSS preprocessor
 import postcss from "rollup-plugin-postcss";
