@@ -10,6 +10,8 @@ import terser from "@rollup/plugin-terser";
 
 import strip from "@rollup/plugin-strip";
 
+import { glob, globSync, globStream, globStreamSync, Glob } from "glob";
+
 // CSS
 // Enable the PostCSS preprocessor
 import postcss from "rollup-plugin-postcss";
@@ -19,6 +21,8 @@ import scss from "rollup-plugin-scss";
 import atImport from "postcss-import";
 // Use the latest CSS features in your Rollup bundle
 import postcssPresetEnv from "postcss-preset-env";
+// PurgeCSS
+import purgecss from "@fullhuman/postcss-purgecss";
 
 // Development: Enables a livereload server that watches for changes to CSS, JS, and Handlbars files
 import { resolve } from "path";
@@ -43,6 +47,12 @@ export default defineConfig({
       sourceMap: true,
       plugins: [atImport(), postcssPresetEnv({})],
       minimize: true,
+      plugins: [
+        purgecss({
+          content: ["./**/*.hbs"],
+          safelist: [/^gh-/],
+        }),
+      ],
     }),
     process.env.BUILD === "production" &&
       strip({
