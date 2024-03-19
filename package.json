@@ -44,6 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@jogarcia/mgrid": "^1.0.2",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^25.0.0",
@@ -55,6 +56,7 @@
     "postcss-import": "^15.1.0",
     "postcss-preset-env": "^8.0.1",
     "prettier": "^3.2.5",
+    "purgecss": "^5.0.0",
     "rollup": "^3.18.0",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-postcss": "^4.0.2",
