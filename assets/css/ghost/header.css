@@ -5,7 +5,7 @@
   padding: 3vmin 4vmin;
   font-size: 1.6rem;
   line-height: 1.3em;
-  background: (--color-neutral-1);
+  background: var(--color-neutral-1);
 }
 
 .gh-head a {
