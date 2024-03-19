@@ -48,7 +48,7 @@ export default defineConfig({
       plugins: [
         purgecss({
           content: ["./**/*.hbs"],
-          safelist: [/^gh-/],
+          safelist: [/^gh-/, /^kg-/],
         }),
       ],
     }),
