@@ -22,6 +22,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 );
 
 @use "components/card";
+@use "components/skeletonloader";
 
 /* Base components */
 @import "vars";
