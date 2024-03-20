@@ -18,14 +18,16 @@
 
 <header id="gh-head" class="gh-head">
     <nav class="gh-head-inner gh-container">
-
         <div class="gh-head-brand">
             <a class="gh-head-logo" href="{{@site.url}}">
-                {{#if @site.logo}}
-                    <img src="{{@site.logo}}" alt="{{@site.title}}" />
+                {{#is "home"}}
                 {{else}}
-                    {{@site.title}}
-                {{/if}}
+                    {{#if @site.logo}}
+                        <img src="{{@site.logo}}" alt="{{@site.title}}" />
+                    {{else}}
+                        {{@site.title}}
+                    {{/if}}
+                {{/is}}
             </a>
             <a class="gh-burger" role="button" aria-label="menu">
                 <div class="gh-burger-box">
