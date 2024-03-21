@@ -87,6 +87,7 @@ $card-body-bottom-space: 23px;
 }
 
 .card-big-screen {
+  grid-column: 1 / -1;
   display: none;
 }
 
