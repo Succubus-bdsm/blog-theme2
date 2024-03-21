@@ -86,6 +86,19 @@ $card-body-bottom-space: 23px;
   color: white;
 }
 
+.card-big-screen {
+  display: none;
+}
+
+@media screen and (min-width: 740px) {
+  .card-small-screen {
+    display: none;
+  }
+  .card-big-screen {
+    display: block;
+  }
+}
+
 .card__title {
   font-size: 3rem;
 }
