@@ -66,12 +66,29 @@ html,
 }
 
 @font-face {
-  font-family: "corbel";
+  font-family: "martel";
   src:
-    url("../fonts/CORBEL.woff2") format("woff2"),
-    url("../fonts/CORBEL.woff") format("woff");
+    url("../fonts/MartelSans-Regular.woff2") format("woff2"),
+    url("../fonts/MartelSans-Regular.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "martel";
+  src:
+    url("../fonts/MartelSans-Bold.woff2") format("woff2"),
+    url("../fonts/MartelSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "martel";
+  src:
+    url("../fonts/MartelSans-Light.woff2") format("woff2"),
+    url("../fonts/MartelSans-Light.woff") format("woff");
+  font-weight: 300;
   font-display: swap;
 }
 
