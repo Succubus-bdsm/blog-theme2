@@ -131,14 +131,14 @@ html,
   );
 }
 
-@media screen and (min-width: 700px) {
+@media (min-width: 700px) {
   .gh-hero:before {
     height: 360px;
     width: 360px;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .gh-hero:before {
     height: 500px;
     width: 500px;
@@ -155,14 +155,14 @@ html,
   height: 100px;
 }
 
-@media screen and (min-width: 700px) {
+@media (min-width: 700px) {
   .gh-hero__img {
     width: 140px;
     height: 140px;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .gh-hero__img {
     width: 180px;
     height: 180px;
@@ -174,13 +174,13 @@ html,
   letter-spacing: 8px;
 }
 
-@media screen and (min-width: 700px) {
+@media (min-width: 700px) {
   .gh-hero__header {
     font-size: 10rem;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .gh-hero__header {
     font-size: 16rem;
   }
@@ -194,7 +194,7 @@ html,
   margin-right: auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .gh-container {
     padding: 0;
   }
