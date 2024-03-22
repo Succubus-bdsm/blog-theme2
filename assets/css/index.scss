@@ -25,20 +25,20 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @use "components/skeletonloader";
 
 /* Base components */
-@import "vars";
-@import "components/global";
-@import "components/forms";
-@import "components/buttons";
+@use "vars";
+@use "components/global";
+@use "components/forms";
+@use "components/buttons";
 
 /* Ghost components */
-@import "ghost/header";
-@import "ghost/content";
-@import "ghost/readmore";
-@import "ghost/members";
-@import "ghost/errors";
-@import "ghost/footer";
-@import "ghost/pagination";
-@import "ghost/comments";
+@use "ghost/header";
+@use "ghost/content";
+@use "ghost/readmore";
+@use "ghost/members";
+@use "ghost/errors";
+@use "ghost/footer";
+@use "ghost/pagination";
+@use "ghost/comments";
 
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
