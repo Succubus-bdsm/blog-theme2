@@ -102,6 +102,7 @@
 /* ---------------------------------------------------------- */
 
 .gh-burger {
+  margin-left: auto;
   position: relative;
   display: none;
   cursor: pointer;
