@@ -1,0 +1,84 @@
+<footer class="pt-6 pb-2">
+    <div class="gh-container">
+        <div class="gh-foot__header">
+            <img
+                src="{{asset "images/logo.svg" }}"
+                class="gh-foot__header-image"
+                alt="Logo of Succubus"
+                width="120px"
+                height="120px"
+            />
+            <h2 class="brand-header gh-foot__header-title">
+                <span>
+                    Suc
+                </span>
+                <span class="brand-header__intermediary">
+                    c
+                </span>
+                <span>
+                    ubus
+                </span>
+            </h2>
+        </div>
+        <div class="my-7 gh-foot__links">
+            <div>
+                <h3 class="mb-2">
+                    Enlace
+                </h3>
+                <ul>
+                    <li><a target="_blank" href="https://www.succubus-bdsm.com">Inicio</a></li>
+                    <li><a target="_blank" href="https://blog.succubus-bdsm.com/">Blog</a></li>
+                    <li><a target="_blank" href="https://test.succubus-bdsm.com/">Encuesta</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mb-2">
+                    Otros Enlaces
+                </h3>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://www.succubus-bdsm.com/sobre-nosotros/">
+                            Sobre Nosotros
+                        </a>
+                    </li>
+                    <li><a target="_blank" href="https://www.succubus-bdsm.com/contactos">Contactos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mb-2">Únete</h3>
+                    <!-- {{navigation type="secondary"}} -->
+                                {{!-- A signup call to action is displayed here, unless viewed as a logged-in member --}}
+                {{#if @site.members_enabled}}
+                {{#unless @member}}
+                    <section class="footer-cta outer">
+                        <div class="inner">
+                            <a class="footer-cta-button" href="#/portal" data-portal>
+                                <div class="footer-cta-input mr-5">Introduzca su correo</div>
+                                <span>Subscribirse</span>
+                            </a>
+                        </div>
+                    </section>
+                {{/unless}}
+                {{/if}}
+
+                <div class="footer__social mt-3">
+                    <a target="_blank" class="footer__social-icons" href="https://www.instagram.com/succubuscuba/">
+                        <img src="{{asset "images/insta-logo.svg" }}" alt="Instagram logo" />
+                    </a>
+                    <a target="_blank" class="footer__social-icons footer__social-icon-x" href="https://twitter.com/succubuscuba">
+                        <img src="{{asset "images/x-logo.svg" }}" alt="X logo" />
+                    </a>
+                    <a target="_blank" class="footer__social-icons" href="https://www.facebook.com/succubuscuba">
+                        <img src="{{asset "images/facebook-logo.svg" }}" alt="Facebook logo" />
+                    </a>
+                    <a target="_blank" class="footer__social-icons footer__social-icon-telegram" href="https://t.me/+MlNpXTZ_rm4xYzJh">
+                        <img src="{{asset "images/telegram-logo.svg" }}"  alt="Telegram logo" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p>Copyright Succubus &copy; {{date format="YYYY"}}</p>
+        </div>
+    </div>
+</footer>
